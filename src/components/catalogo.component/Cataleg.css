@@ -1,0 +1,101 @@
+.cataleg {
+  width: 390px;
+  height: calc(100vh - 110px);
+  position: absolute;
+  top: 70px; /* Coloca el primer componente en la parte superior */
+  left: 0;
+  z-index: 9999;
+  background-color: #ffffff;
+  border-right: 2px solid #ddd;
+  box-shadow: 5px -1px 5px rgb(50 46 46 / 31%);
+
+  padding: 20px;
+  padding-right: 0px;
+  font-family: Arial, sans-serif;
+}
+.container-over {
+  max-height: calc(100vh - 177px);
+}
+
+.cataleg h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.cataleg-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3a3b3c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+.cataleg-button:hover {
+  background-color: #202020;
+}
+
+.cataleg-button div {
+  flex: 1;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.checkbox-container label {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #555;
+  cursor: pointer;
+}
+
+.cataleg-form {
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.cataleg-form label {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #484849;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #313131;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}

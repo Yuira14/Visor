@@ -1,0 +1,58 @@
+.Map {
+  width: 100vw;
+  height: calc(100vh - 72px);
+  font-family: "Arial";
+}
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none; /* Elimina el borde de enfoque */
+  box-shadow: 0 0 0 2px rgba(184, 184, 184, 0.6);
+  border-color: rgb(101, 101, 101);
+}
+button:hover {
+  border-color: rgb(99, 99, 99);
+}
+.close-btn {
+  font-size: 24px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  z-index: 999;
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  border-radius: 50px;
+  padding-bottom: 15px;
+}
+
+.Navbar {
+  background-color: #ffffff; /* Fondo claro y profesional */
+  color: #343a40; /* Texto oscuro para buen contraste */
+  height: 60px; /* Un poco más alto para mayor presencia */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+  /* Tamaño de fuente adecuado */
+  font-weight: 850; /* Hace el texto más prominente */
+  border-bottom: 2px solid #dee2e6; /* Línea sutil debajo para separación */
+  /* Añade un efecto de sombra */
+  font-size: 40px;
+}
+.container-nav {
+  position: relative;
+  z-index: 99999;
+  box-shadow: 0px -1px 11px rgb(23 23 23 / 45%);
+}
+.icon-navbar {
+  color: rgb(0, 0, 0);
+  display: flex;
+  font-size: 49px;
+  margin-right: 20px;
+}

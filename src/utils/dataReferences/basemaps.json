@@ -1,0 +1,22 @@
+{
+  "baseMapsWmsLayers": [
+    {
+      "title": "Mapa administratiu",
+      "url": "https://geoserveis.icgc.cat/servei/catalunya/mapa-base/wms",
+      "layer": "administratiu",
+      "image": "/src/assets/images/admin.jpg"
+    },
+    {
+      "title": "Topogràfic gris",
+      "url": "https://geoserveis.icgc.cat/servei/catalunya/mapa-base/wms",
+      "layer": "topografic-gris",
+      "image": "/src/assets/images/topogris.jpg"
+    },
+    {
+      "title": "Ortofoto",
+      "url": "https://geoserveis.icgc.cat/servei/catalunya/mapa-base/wms",
+      "layer": "orto",
+      "image": "/src/assets/images/orto.jpg"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "wmsLayers": [
+    {
+      "title": "Ruta 1",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "Ruta1",
+      "box": "Rutes"
+    },
+    {
+      "title": "Ruta 2",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "Ruta2",
+      "box": "Rutes"
+    },
+    {
+      "title": "Ruta òptima",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "ruta_optima",
+      "box": "Rutes"
+    },
+    {
+      "title": "NDVI 2023",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&TILED=TRUE&REQUEST=GetCapabilities",
+      "layer": "ndvi_2023",
+      "box": "NDVI"
+    },
+    {
+      "title": "NDVI 2018",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&TILED=TRUE&REQUEST=GetCapabilities",
+      "layer": "ndvi_2018",
+      "box": "NDVI"
+    },
+    {
+      "title": "Districte Administratiu",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "districte_administratiu",
+      "box": "Divisions Administratives"
+    },
+    {
+      "title": "Barri Administratiu",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "barri_administratiu",
+      "box": "Divisions Administratives"
+    },
+    {
+      "title": "Secció censal ",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "seccio_censal",
+      "box": "Divisions Administratives"
+    },
+    {
+      "title": "Illa censal",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "illa_censal",
+      "box": "Divisions Administratives"
+    },
+    {
+      "title": "Portals",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "portal",
+      "box": "Xarxa Viària"
+    },
+    {
+      "title": "Carrers",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "carrer",
+      "box": "Xarxa Viària"
+    },
+    {
+      "title": "Sector de desenvolupament",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "sector_desenvolupament",
+      "box": "Qualificació i classificació del sòl"
+    },
+    {
+      "title": "Polígon de valoració",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "poligon_valoracio",
+      "box": "Qualificació i classificació del sòl"
+    },
+    {
+      "title": "Elements catalogats",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "elements_catalogats",
+      "box": "Qualificació i classificació del sòl"
+    },
+    {
+      "title": "Límits de qualificació",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "limits_qualificacio",
+      "box": "Qualificació i classificació del sòl"
+    },
+    {
+      "title": "Classificació",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "classificacio",
+      "box": "Qualificació i classificació del sòl"
+    },
+    {
+      "title": "Topogràfic",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "P4_TOPO",
+      "box": "Mapa topogràfic"
+    },
+    {
+      "title": "Barris| Vegetació 2018",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "veg_2018",
+      "box": "Estadístiques"
+    },
+    {
+      "title": "Barris| Vegetació 2023",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "veg_2023",
+      "box": "Estadístiques"
+    },
+    {
+      "title": "Seccions| Vegetació 2018",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "seccions_verd_2018",
+      "box": "Estadístiques"
+    },
+    {
+      "title": "Seccions| Vegetació 2023",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "seccions_verd_2023",
+      "box": "Estadístiques"
+    },
+    {
+      "title": "Àrea d'influència dels desfibril·ladors",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "area_dea",
+      "box": "Àrea d'influència"
+    },
+    {
+      "title": "Àrea d'influència dels equipaments",
+      "url": "http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?map=C:/Users/carme/Documents/Universtitat/PROJECTE/P_SIG/GEOPACKAGE/01_ENTORNS/topogr%C3%A0fic.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "layer": "area_equip",
+      "box": "Àrea d'influència"
+    }
+  ]
+}
